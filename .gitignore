@@ -1,0 +1,53 @@
+# Xcode
+DerivedData/
+*.xcworkspace/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+!default.mode1v3
+!default.mode2v3
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundler
+.bundle/
+Gemfile.lock
+
+# Temporary files
+*.swp
+*.swo
+*.DS_Store
+*.or
+*.pyc
+
+# Crash Reports
+*.crash
+
+# Xcode Ghost Folder
+__MACOSX/
+
+# App Store and TestFlight
+*.ipa
+*.dSYM.zip
